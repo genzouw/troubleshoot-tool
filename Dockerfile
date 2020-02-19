@@ -9,6 +9,7 @@ RUN apk add --no-cache \
   nfs-utils \
   nmap \
   nmap-scripts \
+  openssl \
   ;
 
 RUN echo -e 'alias ll="ls -l"\nset -o vi' > $HOME/.bashrc
